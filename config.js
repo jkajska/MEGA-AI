@@ -10,18 +10,18 @@ const defaultOwner = '923444844060';
 
 
 // Check for the OWNERS environment variable; if not found, use the default
-const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || '' ; // put your number here
+const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || '447551610702' ; // put your number here
 
-const ownerlist = ownervb.split(';');
+const ownerlist = ownervb.split('commander;');
 
 global.owner = [];
 for (let i = 0; i < ownerlist.length; i++) {
     global.owner.push([ownerlist[i], true]);
 }
 //
-global.botname = process.env.BOTNAME || 'MEGA-AI';
-global.pairingNumber = process.env.BOT_NUMBER || '' ;  // put your number here
-global.SESSION_ID = process.env.SESSION_ID || '' ;  // put your session id here
+global.botname = process.env.BOTNAME || 'commander';
+global.pairingNumber = process.env.BOT_NUMBER || '447551610702' ;  // put your number here
+global.SESSION_ID = process.env.SESSION_ID || 'LRIV2IzQ#ejIAX8OeFcH_qPWXSdYJ8KqpnvXxmsCD_uq2ABbNszY' ;  // put your session id here
 
 global.mods = []
 global.prems = []
@@ -42,7 +42,7 @@ global.keysneoxrrr = ['5VC9rvNx', 'cfALv5']
 global.keysneoxr = keysneoxrrr[Math.floor(keysneoxrrr.length * Math.random())]
 global.lolkeysapi = ['GataDios']
 
-global.canal = 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07'
+global.canal = 'https://chat.whatsapp.com/IySa8qbfROXErcUckT9YT2'
 
 
 global.APIs = {
@@ -73,8 +73,8 @@ global.APIKeys = {
 
 // Sticker WM
 global.premium = 'true'
-global.packname = 'MEGA-AI'
-global.author = 'GlobalTechInfo'
+global.packname = 'commander'
+global.author = 'loki'
 global.menuvid = 'https://i.imgur.com/2U2K9YA.mp4'
 global.igfg = ' Follow on Instagram\nhttps://www.instagram.com/global.techinfo'
 global.dygp = 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07'
